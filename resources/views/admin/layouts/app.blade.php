@@ -6,7 +6,7 @@
 
     <link rel="icon" type="image/png" href="uploads/favicon.png">
 
-    <title>Admin Panel</title>
+    <title>@yield('title')</title>
     <!-- styles Include -->
     @include('admin.layouts.styles')
 
