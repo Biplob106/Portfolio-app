@@ -13,4 +13,4 @@ Route::get('/', function () {
 //Admin Routes
 
 Route::get('/Admin/dashboard',[AdminHomeController::class,'index'])->name('admin.index');
-Route::get('/admin',[AdminHomeController::class,'view']);
+Route::get('/admin/dashboard',[AdminHomeController::class,'view']);
