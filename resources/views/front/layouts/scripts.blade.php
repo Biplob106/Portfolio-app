@@ -1,0 +1,9 @@
+<script src="{{asset('dist_font/js/jquery-3.6.1.min.js')}}"></script>
+    <script src="{{asset('dist_font/js/popper.min.js')}}"></script>
+    <script src="{{asset('dist_font/js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('dist_font/js/jquery.waypoints.min.js')}}"></script>
+    <script src="{{asset('dist_font/js/counterup.min.js')}}"></script>
+    <script src="{{asset('dist_font/js/filter.min.js')}}"></script>
+    <script src="{{asset('dist_font/js/owl.carousel.min.js')}}"></script>
+    <script src="{{asset('dist_font/js/wow.min.js')}}"></script>
+    <script src="{{asset('dist_font/js/custom.js')}}"></script>
