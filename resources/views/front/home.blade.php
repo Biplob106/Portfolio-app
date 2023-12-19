@@ -1,7 +1,7 @@
 
 
 @extends('front.layouts.app')
-@section('title','Dashboard')
+@section('title','home')
 @section('content')
 
     <div class="home-banner">
