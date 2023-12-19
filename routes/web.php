@@ -2,6 +2,9 @@
 
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\Font\HomeController;
+use App\Http\Controllers\Font\AboutController;
+
+
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,6 +23,7 @@ Route::get('/', function () {
 });
 
 Route::get('/home',[HomeController::class,'index'])->name('home.index');
+Route::get('/about',[AboutController::class,'index'])->name('about.index');
 
 Route::get('/dashboard', function () {
     return view('admin.dashboard');

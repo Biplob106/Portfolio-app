@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg bg-light">
         <div class="container">
-            <a class="navbar-brand logo" href="index.html">
+            <a class="navbar-brand logo" href="{{route('home.index')}}">
                 My<span>Website</span>
                 <!-- <img src="images/logo.png" alt=""> -->
             </a>
@@ -10,10 +10,10 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Home</a>
+                        <a class="nav-link active" href="{{route('home.index')}}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" href="{{route('about.index')}}">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="service.html">Services</a>
