@@ -7,6 +7,9 @@
 
         <!-- Email Address -->
         <div>
+        <h4 class="text-center text-primary">Admin Panel Login</h4>
+        </div>
+        <div>
             <x-input-label for="email" :value="__('Email')" />
             <x-text-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus autocomplete="username" />
             <x-input-error :messages="$errors->get('email')" class="mt-2" />
